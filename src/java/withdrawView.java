@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author PINAL
  */
-public class withdrowView extends HttpServlet {
+public class withdrawView extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
