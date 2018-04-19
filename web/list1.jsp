@@ -1,9 +1,3 @@
-<%-- 
-    Document   : listView1
-    Created on : 18 Apr, 2018, 9:56:53 PM
-    Author     : PINAL
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -17,32 +11,38 @@
      <div class="continer">
         <div >
             
-            <h2  >WelCome Account Holder</h2>
-            <center><h1>
+            <h1  >WelCome Account Holder</h2>
+            </br>
+            <center>
+                <div style="color:red"><h2><u>
                         <%
                            out.print( request.getParameter("name"));
                         %>
-                </h1>
-            </center>  
-           
+                        </u></h2></div>
+            </center> 
+            </h1>
+
         </div>
      </div>
     </center>
-     </br>
+                    </br></br>
         
       <div align="center" >
         <div  class="btn-group btn-group-lg" role="group" aria-label="...">
-            <form action="deposite.html">
-                 <input class="btn btn-primary" type="button" value="Deposite">
+            <form action="deposite1.jsp">
+                 <input class="btn btn-primary" type="submit" value="Deposite">
             </form>
             </br>
-            <form action="withdrow.html">
+            <form action="withdrow1.jsp">
                  <input class="btn btn-primary" type="submit" value="Withdrow">
             </form>
-                        </br>
-
-            <form action="view.html">
+            </br>
+            <form action="view1.jsp">
                  <input class="btn btn-primary" type="submit" value="View Account Detail" >
+            </form>
+            </br>
+            <form action="login.html">
+                 <input class="btn btn-primary" type="submit" value="logout" >
             </form>
          </div>
         </div>
